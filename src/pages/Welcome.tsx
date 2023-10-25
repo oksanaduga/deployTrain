@@ -9,7 +9,7 @@ export const Welcome = () => {
     return (
         <div>
             <h1>
-                id = {id}
+                {id && (`id = ${id}`)}
             </h1>
             <h1>
                 Welcome PAGE
